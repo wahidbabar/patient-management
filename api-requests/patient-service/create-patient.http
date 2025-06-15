@@ -1,0 +1,14 @@
+### POST request to create patient
+POST http://lb-3b4c0cfb.elb.localhost.localstack.cloud:4004/api/patients
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "John Doe Kafka testing",
+  "email": "john_kafka@doe.com",
+  "address": "123 main street",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2024-11-28"
+}
+
+###
